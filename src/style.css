@@ -1,0 +1,98 @@
+
+
+h1,
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: all 130ms ease-in-out;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid rgba(0, 183, 255, 0.248);
+    font-size: 20px;
+    background: azure;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition: all 130ms ease-in-out;
+}
+
+button:hover {
+    background: rgba(0, 183, 255, 0.248);
+    cursor: pointer;
+}
+
+.content {
+    max-width: 600px;
+    margin: 18px auto;
+    background: azure;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.theme {
+    font-size: 13px;
+    color: azure;
+    background: black;
+}
+
+.theme:hover {
+    color: black;
+    background: azure;
+}
+
+.hobby {
+    border-radius: 8px;
+    transition: all 130ms ease-in-out;
+    height: auto;
+    width: 100%;
+}
+
+.hobby:hover {
+    filter: contrast(60%);
+    transform: scale(1.1);
+}
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.pics img {
+    width: 24%;
+    transition: transform 130ms ease-in-out;
+}
+
+.pics img:hover {
+    transform: scale(1.05);
+}
+
+.dark {
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    color: azure;
+}
+
+.dark .content {
+    background: linear-gradient(to right, rgba(68, 68, 68, 0.8), rgba(34, 34, 34, 0.85));
+}
+
+
+
+
